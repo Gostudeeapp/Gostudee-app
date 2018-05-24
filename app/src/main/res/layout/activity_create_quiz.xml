@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_apropos_activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </android.support.v7.widget.Toolbar>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/toolbar"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/subject"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/background_edittext"
+                    android:hint="Sujet"
+                    android:layout_marginTop="30dp"
+                    android:textColorHint="#55D0D1D3"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/subject"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/background_edittext"
+                    android:hint="Description"
+                    android:textColorHint="#55D0D1D3"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/question"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/description"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/background_edittext_question_answer"
+                    android:hint="Saissez votre question"
+                    android:textColorHint="#55D0D1D3" />
+
+                <EditText
+                    android:id="@+id/answer1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/question"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/background_edittext_question_answer"
+                    android:hint="réponse 1"
+                    android:textColorHint="#55D0D1D3"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/answer2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/answer1"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_edittext_question_answer"
+                    android:hint="réponse 2"
+                    android:textColorHint="#55D0D1D3"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/answer3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/answer2"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_edittext_question_answer"
+                    android:hint="réponse 3"
+                    android:textColorHint="#55D0D1D3"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/answer4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/answer3"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_edittext_question_answer"
+                    android:hint="réponse 4"
+                    android:textColorHint="#55D0D1D3"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/realAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/answer4"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_edittext_question_answer"
+                    android:hint="Bonne réponse"
+                    android:textColorHint="#55D0D1D3"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/buttonValidate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/realAnswer"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp"
+                    android:background="@color/colorBlue1"
+                    android:text="Valider" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

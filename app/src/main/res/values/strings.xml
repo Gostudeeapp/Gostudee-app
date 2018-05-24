@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Gostudee</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="apropos_titre">Capsule corp</string>
+    <string name="apropos_nomprenom_yaziddja">Yazid Djaoudi</string>
+    <string name="apropos_poste_yaziddja">Chef de projet</string>
+    <string name="apropos_contact_yaziddja">Réseaux</string>
+    <string name="apropos_nomprenom_ridanassar">Rida Nassar</string>
+    <string name="apropos_poste_ridanassar">Responsable technique</string>
+    <string name="apropos_contact_ridanassar">Réseaux</string>
+    <string name="apropos_nomprenom_anassroudani">Anass Roudani</string>
+    <string name="apropos_poste_anassroudani">Responsable design</string>
+    <string name="apropos_contact_anassroudani">Réseaux</string>
+    <string name="apropos_nomprenom_haymadoudukureh">Haymadou Dukureh</string>
+    <string name="apropos_poste_haymadoudukureh">Responsable communication</string>
+    <string name="apropos_contact_haymadoudukureh">Réseaux</string>
+    <string name="apropos_nomprenom_eddiecao">Eddie Cao</string>
+    <string name="apropos_poste_eddiecao">Consultant</string>
+    <string name="apropos_contact_eddiecao">Réseaux</string>
+
+</resources>

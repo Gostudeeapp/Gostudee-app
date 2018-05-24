@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/y_nom_prenom_apropos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/apropos_nomprenom_yaziddja"
+            android:textColor="@color/colorWhite"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/y_poste_apropos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/apropos_poste_yaziddja"
+            android:textColor="@color/colorWhite"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/y_contact_apropos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/apropos_contact_yaziddja"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/r_nom_prenom_apropos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/apropos_nomprenom_ridanassar"
+            android:textColor="@color/colorWhite"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/r_poste_apropos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/apropos_poste_ridanassar"
+            android:textColor="@color/colorWhite"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/r_contact_apropos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/apropos_contact_ridanassar"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/h_nom_prenom_apropos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/apropos_nomprenom_haymadoudukureh"
+            android:textColor="@color/colorWhite"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/h_poste_apropos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/apropos_poste_haymadoudukureh"
+            android:textColor="@color/colorWhite"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/h_contact_apropos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/apropos_contact_haymadoudukureh"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/a_nom_prenom_apropos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/apropos_nomprenom_anassroudani"
+            android:textColor="@color/colorWhite"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/a_poste_apropos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/apropos_poste_anassroudani"
+            android:textColor="@color/colorWhite"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/a_contact_apropos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/apropos_contact_anassroudani"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/e_nom_prenom_apropos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/apropos_nomprenom_eddiecao"
+            android:textColor="@color/colorWhite"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/e_poste_apropos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/apropos_poste_eddiecao"
+            android:textColor="@color/colorWhite"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/e_contact_apropos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/apropos_contact_eddiecao"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

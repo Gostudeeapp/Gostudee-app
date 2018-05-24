@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "561186412727",
+    "firebase_url": "https://gostudeeapp-1d010.firebaseio.com",
+    "project_id": "gostudeeapp-1d010",
+    "storage_bucket": "gostudeeapp-1d010.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561186412727:android:913398eb18395c38",
+        "android_client_info": {
+          "package_name": "dja.yazid.gostudeeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561186412727-95tj16q7cg3qs3ubq83brdtm1honaahg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dja.yazid.gostudeeapp",
+            "certificate_hash": "7eaa72c42df7d0a2945a946302a24cb4030ac60e"
+          }
+        },
+        {
+          "client_id": "561186412727-k6h5puo6sl6ddp918vjk5m4t9lc1ip2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl5-ehQ0Q1tqJAKAGwqvJYE9rY1UlNeoo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561186412727-k6h5puo6sl6ddp918vjk5m4t9lc1ip2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
